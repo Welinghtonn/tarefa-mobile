@@ -1,0 +1,168 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    overflow-y: hidden;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.pai-people{
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+
+    height: 500px;
+}
+
+.container-people{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 120px;
+    height: 370px;
+}
+
+.head{
+    width: 65px;
+    height: 70px;
+    margin-bottom: 15px;
+
+    border-radius: 100%;
+
+    border: solid 2px #fdfca3;
+    background-color: black;
+}
+
+.chest{
+    width: 100%;
+    height: 20%;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20PX;
+
+    border-top: solid 2px #fdfca3;
+    border-left: solid 2px #fdfca3;
+    border-right: solid 2px #fdfca3;
+    background-color: black;
+}
+
+.arm-abdomen{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 20%;
+}
+
+.arm{
+    width: 22%;
+    height: 100%;
+
+    border-left: solid 2px #fdfca3;
+    border-right: #fdfca3 solid 2px;
+    border-bottom: #fdfca3 solid 2px;
+    background-color: black;
+}
+
+.abdomen{
+    width: 55%;
+    height: 100%;
+
+    border-left: solid 2px #fdfca3;
+    border-right: #fdfca3 solid 2px;
+    background-color: black;
+}
+
+.leg{
+    width: 55%;
+    height: 25%;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    border-left: solid 2px #fdfca3;
+    border-right: #fdfca3 solid 2px;
+    border-bottom: #fdfca3 solid 2px;
+    background-color: black;
+}
+
+
+.pai-quadro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 70vh;
+}
+
+.quadro{
+    display: flex;
+    
+    flex-direction: column;
+
+    height: 270px;
+    width: 350px;
+
+    border-radius: 30px;
+
+    color: white;
+    background-color: green;
+    border: solid black 6px;
+}
+
+.bem-vindo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    height: 55%;
+}
+
+.proprietario{
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+
+    width: 100%;
+    height: 45%;
+    padding: 10px;
+}
+
+.proprietario p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.peoples{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    height: 230px;
+    width: 100%;
+}
